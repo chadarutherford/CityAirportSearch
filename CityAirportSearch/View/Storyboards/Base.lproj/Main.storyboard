@@ -10,7 +10,7 @@
         <!--Search City View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SearchAirportsViewController" id="BYZ-38-t0r" customClass="SearchCityViewController" customModule="CityAirportSearch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchCityViewController" id="BYZ-38-t0r" customClass="SearchCityViewController" customModule="CityAirportSearch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92549019607843142" green="0.21568627450980393" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.21568627450980393" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="CWu-cg-mCa" firstAttribute="leading" secondItem="wPz-JZ-xIc" secondAttribute="leading" constant="16" id="4Lu-Vv-Yq7"/>
                                     <constraint firstAttribute="height" constant="120" id="LSJ-jW-Gea"/>
@@ -54,7 +54,7 @@
                     </view>
                     <connections>
                         <outlet property="roundedView" destination="wPz-JZ-xIc" id="xUt-Le-Mq6"/>
-                        <outlet property="searchTextField" destination="wPz-JZ-xIc" id="ERj-2O-0vX"/>
+                        <outlet property="searchTextField" destination="CWu-cg-mCa" id="o3s-F9-kNM"/>
                         <outlet property="tableView" destination="xNr-EB-B5i" id="hay-sg-JZz"/>
                     </connections>
                 </viewController>
